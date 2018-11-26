@@ -1,0 +1,31 @@
+Hey, here is your new task! 
+It is a TSV file containing 100 records.
+ A TSV file is like a CSV file,
+ but it uses a tab (`\t`) instead of a comma to separate items.
+ The columns are city, date, and temperature (in Fahrenheit). 
+ I would like you to add two more columns--weekday and temperature (celsius).
+ 
+ So, if we take the first row as an example:
+ Sunnyvale, CA 	2018-05-08 	56.3F
+ (The date (2018-05-08) is in YYYY-MM-DD format so it is May 08, 2018.)
+ It would become:Sunnyvale, CA 	2018-05-08 	56.3F	Tue 	13.5C
+ 
+ I would like you to create two functions and use them in your program for:
+ 1) converting a date to a weekday, 
+ and 
+ 2) converting from Fahrenheit to celsius.
+ 
+ Functions are pretty easy. 
+ It just allows us to collect code together for easy re-use later.
+ Example function:
+ def your_function(value): 
+ # do stuff to value   
+ # return value  
+ return value
+ Example  usage:
+ value = 1234
+ my_computed_value = your_function(value)
+ 
+ You can either print all of the data (including your two new columns) 
+ to the screen or create a new file.
+ 
